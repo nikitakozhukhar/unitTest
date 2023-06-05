@@ -16,6 +16,7 @@ export default function checkHealth({ health }) {
   if (health < 15) {
     return 'critical';
   }
+  return health;
 }
 
 // const characters = [

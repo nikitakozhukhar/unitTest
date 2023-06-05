@@ -17,12 +17,6 @@ export default function checkHealth({ health }) {
 		return 'critical';
 	}
   }
-  
-let characters = [
-	{name: 'мечник', health: 10},
-	{name: 'маг', health: 100},
-	{name: 'лучник', health: 80},
-  ]
 
   export function sortCharacters(arr) {
 	return arr.sort((prev, next) => next.health - prev.health)
